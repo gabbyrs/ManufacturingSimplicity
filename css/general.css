@@ -3,6 +3,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: "Aptos";
 }
 
 main {
@@ -10,7 +11,7 @@ main {
 
     & > h1 {
         padding: 0px 20px 20px 20px;
-        font-family: Aptos Display;
+        font-family: "Aptos Display";
         font-size: 30px;
         font-weight: 600;
         letter-spacing: 1.5px;
@@ -19,7 +20,7 @@ main {
 
     & > h2 {
         padding: 0px 20px 20px 20px;
-        font-family: Aptos;
+        font-family: "Aptos";
         font-size: 25px;
         font-weight: 600;
         letter-spacing: 1.5px;
@@ -28,7 +29,7 @@ main {
 
     & > h3 {
         padding: 0px 20px 20px 20px;
-        font-family: Aptos;
+        font-family: "Aptos";
         font-size: 20px;
         font-weight: 600;
         letter-spacing: 1.5px;
