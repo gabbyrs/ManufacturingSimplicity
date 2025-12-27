@@ -93,7 +93,7 @@
 @font-face {
   font-family: "Aptos Display";
   src: url("Aptos-Display-Italic.ttf") format("truetype");
-  font-weight: 400;
+  font-weight: 700;
   font-style: italic;
 }
 
@@ -107,6 +107,6 @@
 @font-face {
   font-family: "Aptos Display";
   src: url("Aptos-Display-Bold-Italic.ttf") format("truetype");
-  font-weight: 700;
+  font-weight: 400;
   font-style: italic;
 }

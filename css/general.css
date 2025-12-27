@@ -12,7 +12,7 @@ main {
     & > h1 {
         font-family: "Aptos Display", sans-serif;
         font-size: 28px;
-        font-weight: 700;
+        font-weight: 400;
         letter-spacing: -0.015em;
         color: #112f47;
     }
