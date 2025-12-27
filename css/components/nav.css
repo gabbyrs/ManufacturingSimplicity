@@ -6,7 +6,6 @@ header {
         box-shadow: 0px 0px 25px -15px rgba(0, 0, 0, 0.75);
         display: flex;
         align-items: center;
-        justify-content: center;
         background: #112f47;
         z-index: 99;
         gap: 5px;
