@@ -9,9 +9,27 @@ main {
     padding: 155px calc((100dvw - 1300px)/ 2);
 
     & > h1 {
-        padding: 0px 20px 20px 380px;
+        padding: 0px 20px 20px 20px;
         font-family: Century Gothic;
         font-size: 30px;
+        font-weight: 600;
+        letter-spacing: 1.5px;
+        color: #112f47;
+    }
+
+    & > h2 {
+        padding: 0px 20px 20px 20px;
+        font-family: Century Gothic;
+        font-size: 25px;
+        font-weight: 600;
+        letter-spacing: 1.5px;
+        color: #112f47;
+    }
+
+    & > h3 {
+        padding: 0px 20px 20px 20px;
+        font-family: Century Gothic;
+        font-size: 20px;
         font-weight: 600;
         letter-spacing: 1.5px;
         color: #112f47;
