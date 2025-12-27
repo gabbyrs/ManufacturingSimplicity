@@ -15,7 +15,6 @@ main {
         font-weight: 400;
         letter-spacing: -0.015em;
         color: #112f47;
-        text-transform: uppercase;
     }
 
     & > h2 {
