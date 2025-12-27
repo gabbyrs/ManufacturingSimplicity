@@ -1,0 +1,19 @@
+@import url(fonts/fonts.css);
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+main {
+    padding: 155px calc((100dvw - 1300px)/ 2);
+
+    & > h1 {
+        padding: 0px 20px 20px 380px;
+        font-family: Century Gothic;
+        font-size: 30px;
+        font-weight: 600;
+        letter-spacing: 1.5px;
+        color: #cb7e93;
+    }
+}
