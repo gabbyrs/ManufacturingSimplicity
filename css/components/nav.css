@@ -4,10 +4,15 @@ header {
         width: 100%;
         height: var(--nav-height);
         box-shadow: 0px 0px 25px -15px rgba(0, 0, 0, 0.75);
-        display: grid;
+        display: flat;
         align-items: center;
         background: #112f47;
         z-index: 99;
+
+        & > img {
+            height: 50px;
+            width: auto;
+        }
 
         & > h1 {
             justify-self: center;
