@@ -7,7 +7,6 @@
     <link rel="stylesheet" href="css/general.css">
     <link rel="stylesheet" href="css/variables/nav.css">
     <link rel="stylesheet" href="css/components/nav.css">
-    <script type="module" src="/js/contact.js"></script>
 </head>
 <body>
     <header>
@@ -23,11 +22,15 @@
             </ul>
         </nav>
     </header>
-    <main>
-        <h1>Contact Information</h1>
-        <h2>Eduardo Pagani, CEO</h2>
-        <h3>Phone: +1(561)455-6787</h3>
-        <h3>Email: e.pagani@manufacturingsimplicity.com</h3>
-    </main>
+    <div class="container">
+        <form action="https://formspree.io/f/meeqvdae" method="POST"></form>
+            <h3>Questions? Connect with us by submitting the form below.</h3>
+            <input type="email" name="email" id="email" placeholder="Email Address" required>
+            <input type="text" name="firstName" id="firstName" placeholder="First Name" required>
+            <input type="text" name="lastName" id="lastName" placeholder="Last Name" required>
+            <textarea name="message" id="message" rows="4" placeholder="How can we help you?"></textarea>
+            <button type="submit">Submit</button>
+        </form>
+    </div>
 </body>
 </html>
