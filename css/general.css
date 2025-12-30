@@ -7,9 +7,8 @@
 }
 
 main {
-    margin-top: 80px; 
-    padding: 2rem calc((100dvw - 1300px) / 2);
-    min-height: calc(100vh - 80px);
+    padding-top: 80px;
+    min-height: 100vh;
 
     & > h1 {
         font-family: "Aptos Display", sans-serif;
@@ -38,11 +37,12 @@ main {
 
 .container {
     width: 100%;
-    min-height: auto;
+    min-height: calc(100vh - 80px);
     background: white;
     display: flex;
     align-items: center;
-    justify-content: center;
+    flex-direction: column;
+    justify-content: flex-start;
     padding: 40px 20px;
 }
 
@@ -50,11 +50,11 @@ form {
     background: lightblue;
     display: flex;
     flex-direction: column;
-    padding: 2rem;
+    padding: 2.5rem;
     width: 100%;
     max-width: 600px;
     border-radius: 10px;
-    margin: 0 auto;
+    margin: 20px auto;
 }
 
 form h3 {
@@ -105,9 +105,9 @@ body {
 .hero {
     background: linear-gradient(135deg, #112f47 0%, #1a4563 100%);
     color: white;
-    padding: 4rem 2rem;
-    padding-top: calc(var(--nav-height) + 2rem);
+    padding: 3rem 2rem;
     text-align: center;
+    width: 100%;
 }
 
 .hero h1 {
@@ -126,7 +126,7 @@ body {
 }
 
 .three-columns {
-    padding: 1rem 1rem;
+    padding: 2rem 1rem;
     background: #f8f9fa;
     display: flex;
     justify-content: center;
