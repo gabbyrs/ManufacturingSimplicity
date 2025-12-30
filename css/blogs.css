@@ -1,4 +1,4 @@
-.blog1-header {
+.blog-header {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -6,7 +6,7 @@
     padding: 0 1.5rem;
 }
 
-.blog1-header img {
+.blog-header img {
     width: 100%;
     max-width: 830px;
     height: auto;
@@ -15,16 +15,34 @@
     padding-top: 20px;
 }
 
-.blog1-header h1 {
+.blog-header h1 {
     text-align: center;
     margin-bottom: 0.5rem;
     color: #112f47;
 }
 
-.blog1-header h3 {
+.blog-header h3 {
     text-align: center;
     color: #112f47;
     font-weight: 400;
+}
+
+.blog-header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 2rem;
+    padding: 0 1.5rem;
+}
+
+.blog2-chart img {
+    width: 100%;
+    max-width: 830px;
+    height: auto;
+    border-radius: 0;
+    margin-bottom: 1.5rem;
+    margin-top: 1.5rem;
+    margin-left: 3rem;
 }
 
 main h2 {
