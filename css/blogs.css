@@ -48,3 +48,14 @@ main ul li {
     line-height: 1.6;
     margin-left: 3rem;
 }
+
+main ol {
+    margin-bottom: 1.5rem;
+    margin-left: 2rem;
+}
+
+main ol li {
+    margin-bottom: 0.75rem;
+    line-height: 1.6;
+    margin-left: 3rem;
+}
