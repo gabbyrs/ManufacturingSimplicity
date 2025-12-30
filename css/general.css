@@ -97,7 +97,6 @@ body {
     color: #333;
 }
 
-/* Hero Section */
 .hero {
     background: linear-gradient(135deg, #112f47 0%, #1a4563 100%);
     color: white;
@@ -121,16 +120,15 @@ body {
     line-height: 1.8;
 }
 
-/* Three Columns Section */
 .three-columns {
-    padding: 4rem 2rem;
+    padding: 2rem 2rem;
     background: #f8f9fa;
     display: flex;
     justify-content: center;
 }
 
 .card {
-    background: white;
+    background: lightblue;
     padding: 2.5rem;
     border-radius: 8px;
     box-shadow: 0 2px 8px rgba(0,0,0,0.08);
@@ -176,7 +174,6 @@ body {
     font-weight: bold;
 }
 
-/* Mission Section */
 .mission-section {
     padding: 4rem 2rem;
     background: white;
@@ -201,7 +198,6 @@ body {
     line-height: 1.8;
 }
 
-/* Contact/CTA Section */
 .contact-section {
     background: #112f47;
     color: white;
@@ -248,7 +244,7 @@ body {
     }
     
     .three-columns {
-        padding: 3rem 1.5rem;
+        padding: 1.75rem 1.5rem;
     }
     
     .card {
@@ -290,7 +286,7 @@ body {
     }
     
     .three-columns {
-        padding: 2.5rem 1rem;
+        padding: 1.5rem 1rem;
     }
     
     .three-columns .container > div {
@@ -346,7 +342,7 @@ body {
     }
     
     .three-columns {
-        padding: 2rem 1rem;
+        padding: 1.25rem 1rem;
     }
     
     .three-columns .container > div {
