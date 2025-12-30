@@ -86,6 +86,27 @@ body {
     .contact-section p {
         font-size: 1rem;
     }
+
+    main h2 {
+        margin-left: 2rem;
+        margin-right: 2rem;
+    }
+    
+    main p {
+        margin-left: 2rem;
+        margin-right: 2rem;
+    }
+    
+    main ul,
+    main ol {
+        margin-left: 2rem;
+        margin-right: 2rem;
+    }
+    
+    main ul li,
+    main ol li {
+        margin-left: 2rem;
+    }
 }
 
 /* responsive design for phones / smaller tablets (768px and below) */
@@ -141,6 +162,32 @@ body {
     .contact-section .button {
         padding: 0.9rem 2rem;
         font-size: 16px;
+    }
+
+    main h2 {
+        margin-left: 1.5rem;
+        margin-right: 1.5rem;
+    }
+    
+    main p {
+        margin-left: 1.5rem;
+        margin-right: 1.5rem;
+    }
+    
+    main ul,
+    main ol {
+        margin-left: 1.5rem;
+        margin-right: 1.5rem;
+    }
+    
+    main ul li,
+    main ol li {
+        margin-left: 1.5rem;
+    }
+    
+    .blog1-header img {
+        padding-left: 1rem;
+        padding-right: 1rem;
     }
 }
 
@@ -198,5 +245,36 @@ body {
     .contact-section .button {
         padding: 0.8rem 1.5rem;
         font-size: 14px;
+    }
+
+    main h2 {
+        margin-left: 1rem;
+        margin-right: 1rem;
+    }
+    
+    main p {
+        margin-left: 1rem;
+        margin-right: 1rem;
+    }
+    
+    main ul,
+    main ol {
+        margin-left: 1rem;
+        margin-right: 1rem;
+    }
+    
+    main ul li,
+    main ol li {
+        margin-left: 1rem;
+    }
+    
+    .blog1-header img {
+        padding-left: 0.75rem;
+        padding-right: 0.75rem;
+    }
+    
+    .blog1-header h1 {
+        padding-left: 0.5rem;
+        padding-right: 0.5rem;
     }
 }
