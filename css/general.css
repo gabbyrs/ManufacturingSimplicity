@@ -91,3 +91,295 @@ form button {
 form button:hover {
     background: #1a4563;
 }
+
+body {
+    line-height: 1.6;
+    color: #333;
+}
+
+/* Hero Section */
+.hero {
+    background: linear-gradient(135deg, #112f47 0%, #1a4563 100%);
+    color: white;
+    padding: 4rem 2rem;
+    text-align: center;
+}
+
+.hero h1 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+    font-weight: 700;
+    font-family: "Aptos Display", sans-serif;
+}
+
+.hero p {
+    font-size: 1.2rem;
+    max-width: 800px;
+    margin: 0 auto;
+    opacity: 0.95;
+    line-height: 1.8;
+}
+
+/* Three Columns Section */
+.three-columns {
+    padding: 4rem 2rem;
+    background: #f8f9fa;
+}
+
+.card {
+    background: white;
+    padding: 2.5rem;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 16px rgba(0,0,0,0.12);
+}
+
+.card h3 {
+    color: #112f47;
+    margin-bottom: 1rem;
+    font-size: 1.5rem;
+    font-family: "Aptos Display", sans-serif;
+}
+
+.card p {
+    color: #555;
+    margin-bottom: 1rem;
+    line-height: 1.7;
+}
+
+.card ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+.card ul li {
+    padding: 0.5rem 0;
+    color: #555;
+    position: relative;
+    padding-left: 1.5rem;
+}
+
+.card ul li:before {
+    content: "✓";
+    position: absolute;
+    left: 0;
+    color: #112f47;
+    font-weight: bold;
+}
+
+/* Mission Section */
+.mission-section {
+    padding: 4rem 2rem;
+    background: white;
+}
+
+.mission-content {
+    max-width: 900px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.mission-content h2 {
+    color: #112f47;
+    font-size: 2rem;
+    margin-bottom: 1.5rem;
+    font-family: "Aptos Display", sans-serif;
+}
+
+.mission-content p {
+    font-size: 1.1rem;
+    color: #555;
+    line-height: 1.8;
+}
+
+/* Contact/CTA Section */
+.contact-section {
+    background: #112f47;
+    color: white;
+    padding: 4rem 2rem;
+    text-align: center;
+}
+
+.contact-section h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    font-family: "Aptos Display", sans-serif;
+}
+
+.contact-section p {
+    font-size: 1.1rem;
+    margin-bottom: 2rem;
+    opacity: 0.9;
+}
+
+.contact-section .button {
+    display: inline-block;
+    padding: 1rem 2.5rem;
+    background: white;
+    color: #112f47;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: 600;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.contact-section .button:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+}
+
+/* responsive design for tablets (768px - 1023px) */
+@media (max-width: 1023px) {
+    .hero h1 {
+        font-size: 2.2rem;
+    }
+    
+    .hero p {
+        font-size: 1.1rem;
+    }
+    
+    .three-columns {
+        padding: 3rem 1.5rem;
+    }
+    
+    .card {
+        padding: 2rem;
+    }
+    
+    .card h3 {
+        font-size: 1.3rem;
+    }
+    
+    .mission-section,
+    .contact-section {
+        padding: 3rem 1.5rem;
+    }
+    
+    .mission-content h2,
+    .contact-section h2 {
+        font-size: 1.8rem;
+    }
+    
+    .mission-content p,
+    .contact-section p {
+        font-size: 1rem;
+    }
+}
+
+/* responsive design for phones / smaller tablets (768px and below) */
+@media (max-width: 767px) {
+    .hero {
+        padding: 3rem 1.5rem;
+    }
+    
+    .hero h1 {
+        font-size: 1.8rem;
+    }
+    
+    .hero p {
+        font-size: 1rem;
+    }
+    
+    .three-columns {
+        padding: 2.5rem 1rem;
+    }
+    
+    .three-columns .container > div {
+        grid-template-columns: 1fr !important;
+        gap: 2rem;
+    }
+    
+    .card {
+        padding: 1.5rem;
+    }
+    
+    .card h3 {
+        font-size: 1.2rem;
+    }
+    
+    .card p {
+        font-size: 0.95rem;
+    }
+    
+    .mission-section,
+    .contact-section {
+        padding: 2.5rem 1rem;
+    }
+    
+    .mission-content h2,
+    .contact-section h2 {
+        font-size: 1.5rem;
+    }
+    
+    .mission-content p,
+    .contact-section p {
+        font-size: 0.95rem;
+    }
+    
+    .contact-section .button {
+        padding: 0.9rem 2rem;
+        font-size: 16px;
+    }
+}
+
+/* responsive design for small phones (320px - 480px) */
+@media (max-width: 480px) {
+    .hero {
+        padding: 2rem 1rem;
+    }
+    
+    .hero h1 {
+        font-size: 1.5rem;
+    }
+    
+    .hero p {
+        font-size: 0.9rem;
+    }
+    
+    .three-columns {
+        padding: 2rem 1rem;
+    }
+    
+    .three-columns .container > div {
+        gap: 1.5rem;
+    }
+    
+    .card {
+        padding: 1.25rem;
+    }
+    
+    .card h3 {
+        font-size: 1.1rem;
+    }
+    
+    .card p,
+    .card ul li {
+        font-size: 0.9rem;
+    }
+    
+    .mission-section,
+    .contact-section {
+        padding: 2rem 1rem;
+    }
+    
+    .mission-content h2,
+    .contact-section h2 {
+        font-size: 1.3rem;
+    }
+    
+    .mission-content p,
+    .contact-section p {
+        font-size: 0.9rem;
+        line-height: 1.6;
+    }
+    
+    .contact-section .button {
+        padding: 0.8rem 1.5rem;
+        font-size: 14px;
+    }
+}
