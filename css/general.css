@@ -7,7 +7,7 @@
 }
 
 main {
-    padding: 155px calc((100dvw - 1300px)/ 2);
+    padding: 40px calc((100dvw - 1300px)/ 2);
 
     & > h1 {
         font-family: "Aptos Display", sans-serif;
@@ -36,7 +36,7 @@ main {
 
 .container {
     width: 100%;
-    min-height: 100vh;
+    min-height: auto;
     background: white;
     display: flex;
     align-items: center;
