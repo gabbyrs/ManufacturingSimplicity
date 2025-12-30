@@ -1,7 +1,13 @@
+body {
+    padding-top: var(--nav-height);
+}
+
 header {
     /* nav bar styling */
     & > nav {
         position: fixed;
+        top: 0;
+        left: 0;
         width: 100%;
         height: var(--nav-height);
         box-shadow: 0px 0px 25px -15px rgba(0, 0, 0, 0.75);
@@ -25,7 +31,6 @@ header {
             }
 
             & > h1 {
-                justify-self: left;
                 font-family: "Aptos Display", sans-serif;
                 font-size: 50px;
                 font-weight: 600;
@@ -62,17 +67,12 @@ header {
     }
 }
 
-main {
-    padding-top: var(--nav-height);
-
-    & > h1 {
-        font-size: 48px;
-        padding: 0 20px;
-    }
-}
-
 /* responsive design for tablets (768px - 1023px) */
 @media (max-width: 1023px) {
+    :root {
+        --nav-height: 72px;
+    }
+
     header {
         & > nav {
             padding: 0 20px;
@@ -110,6 +110,10 @@ main {
 
 /* responsive design for phones / smaller tablets (768px and below) */
 @media (max-width: 767px) {
+    :root {
+        --nav-height: 120px; 
+    }
+
     header {
         & > nav {
             flex-direction: column;
@@ -141,8 +145,6 @@ main {
     }
     
     main {
-        padding-top: 100px;
-
         & > h1 {
             font-family: "Aptos Display", sans-serif;
             font-size: 28px;
@@ -152,6 +154,10 @@ main {
 
 /* responsive design for small phones (320px - 480px) */
 @media (max-width: 480px) {
+    :root {
+        --nav-height: 135px;
+    }
+
     header {
         & > nav {
             & .nav-business {
@@ -177,7 +183,6 @@ main {
         & > h1 {
             font-family: "Aptos Display", sans-serif;
             font-size: 24px;
-            padding: 0 15px;
         }
     }
 }
