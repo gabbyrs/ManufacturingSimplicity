@@ -7,8 +7,8 @@
 }
 
 main {
-    padding-top: 80px;
-    min-height: 100vh;
+    padding-top: 100px;
+    min-height: auto;
 
     & > h1 {
         font-family: "Aptos Display", sans-serif;
@@ -37,7 +37,7 @@ main {
 
 .container {
     width: 100%;
-    min-height: calc(100vh - 80px);
+    min-height: auto;
     background: white;
     display: flex;
     align-items: center;
@@ -50,7 +50,7 @@ form {
     background: lightblue;
     display: flex;
     flex-direction: column;
-    padding: 2.5rem;
+    padding: 3rem;
     width: 100%;
     max-width: 600px;
     border-radius: 10px;
