@@ -17,11 +17,12 @@
 .blog1-header h1 {
     text-align: center;
     margin-bottom: 0.5rem;
+    color: #112f47;
 }
 
 .blog1-header h3 {
     text-align: center;
-    color: #666;
+    color: #112f47;
     font-weight: 400;
 }
 
