@@ -1,0 +1,135 @@
+.hero {
+    background: linear-gradient(135deg, #112f47 0%, #1a4563 100%);
+    color: white;
+    padding: 3rem 2rem;
+    text-align: center;
+    width: 100%;
+}
+
+.hero h1 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+    font-weight: 700;
+    font-family: "Aptos Display", sans-serif;
+}
+
+.hero p {
+    font-size: 1.2rem;
+    max-width: 800px;
+    margin: 0 auto;
+    opacity: 0.95;
+    line-height: 1.8;
+}
+
+.three-columns {
+    padding: 2rem 1rem;
+    background: #f8f9fa;
+    display: flex;
+    justify-content: center;
+}
+
+.card {
+    background: lightblue;
+    padding: 2.5rem;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 16px rgba(0,0,0,0.12);
+}
+
+.card h3 {
+    color: #112f47;
+    margin-bottom: 1rem;
+    font-size: 1.5rem;
+    font-family: "Aptos Display", sans-serif;
+    text-align: center;
+}
+
+.card p {
+    color: #555;
+    margin-bottom: 1rem;
+    line-height: 1.7;
+}
+
+.card ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+.card ul li {
+    padding: 0.5rem 0;
+    color: #555;
+    position: relative;
+    padding-left: 1.5rem;
+}
+
+.card ul li:before {
+    content: "✓";
+    position: absolute;
+    left: 0;
+    color: #112f47;
+    font-weight: bold;
+}
+
+.mission-section {
+    padding: 4rem 2rem;
+    background: white;
+}
+
+.mission-content {
+    max-width: 900px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.mission-content h2 {
+    color: #112f47;
+    font-size: 2rem;
+    margin-bottom: 1.5rem;
+    font-family: "Aptos Display", sans-serif;
+}
+
+.mission-content p {
+    font-size: 1.1rem;
+    color: #555;
+    line-height: 1.8;
+}
+
+.contact-section {
+    background: #112f47;
+    color: white;
+    padding: 4rem 2rem;
+    text-align: center;
+}
+
+.contact-section h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    font-family: "Aptos Display", sans-serif;
+}
+
+.contact-section p {
+    font-size: 1.1rem;
+    margin-bottom: 2rem;
+    opacity: 0.9;
+}
+
+.contact-section .button {
+    display: inline-block;
+    padding: 1rem 2.5rem;
+    background: white;
+    color: #112f47;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: 600;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.contact-section .button:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+}
