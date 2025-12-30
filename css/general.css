@@ -7,7 +7,9 @@
 }
 
 main {
-    padding: 40px calc((100dvw - 1300px)/ 2);
+    margin-top: 80px; 
+    padding: 2rem calc((100dvw - 1300px) / 2);
+    min-height: calc(100vh - 80px);
 
     & > h1 {
         font-family: "Aptos Display", sans-serif;
@@ -48,10 +50,11 @@ form {
     background: lightblue;
     display: flex;
     flex-direction: column;
-    padding: 2vw 4vw;
-    width: 90%;
+    padding: 2rem;
+    width: 100%;
     max-width: 600px;
     border-radius: 10px;
+    margin: 0 auto;
 }
 
 form h3 {
@@ -69,6 +72,8 @@ form input, form textarea {
     font-size: 16px;
     color: white;
     border-radius: 5px;
+    width: 100%;
+    box-sizing: border-box;
 }
 
 form input::placeholder, form textarea::placeholder {
