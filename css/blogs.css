@@ -142,10 +142,10 @@ blockquote {
     margin-top: 1.5rem;
     padding: 1.5rem 2rem;
     border-left: 4px solid #112f47;
-    background-color: #f0f4f7;
+    background-color: lightblue;
     font-size: 1.15rem;
     font-style: italic;
-    color: lightblue;
+    color: #112f47;
     line-height: 1.6;
 }
 
