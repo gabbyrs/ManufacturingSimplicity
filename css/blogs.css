@@ -45,6 +45,12 @@
     margin-left: 3rem;
 }
 
+.divider {
+  border: none;
+  border-top: 1px solid lightgrey;
+  margin: 40px 0;
+}
+
 main h2 {
     margin-left: 3rem;
     margin-top: 2.5rem;
