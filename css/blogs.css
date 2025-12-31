@@ -51,6 +51,39 @@
   margin: 40px 0;
 }
 
+.blog-links {
+    margin-left: 3rem;
+    margin-right: 3rem;
+    list-style: none;
+    padding: 0;
+}
+
+.blog-links li {
+    margin-bottom: 1.5rem;
+    margin-left: 0;
+    padding: 1rem 1.5rem;
+    border-left: 3px solid #1a4d6f;
+    background: #f8f9fa;
+    transition: all 0.3s ease;
+}
+
+.blog-links li:hover {
+    background: lightblue;
+    border-left-color: #2d7a9f;
+    transform: translateX(8px);
+}
+
+.blog-links a {
+    color: #112f47;
+    text-decoration: none;
+    font-size: 1.05rem;
+    display: block;
+}
+
+.blog-links a:hover {
+    color: #1a4d6f;
+}
+
 main h1 {
     margin-left: 3rem;
     margin-top: 2.5rem;
