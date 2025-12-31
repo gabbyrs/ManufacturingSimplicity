@@ -185,7 +185,12 @@ body {
         margin-left: 1.5rem;
     }
     
-    .blog1-header img {
+    .blog-header img {
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+
+    .blog2-chart img {
         padding-left: 1rem;
         padding-right: 1rem;
     }
@@ -268,13 +273,18 @@ body {
         margin-left: 1rem;
     }
     
-    .blog1-header img {
+    .blog-header img {
         padding-left: 0.75rem;
         padding-right: 0.75rem;
     }
     
-    .blog1-header h1 {
+    .blog-header h1 {
         padding-left: 0.5rem;
         padding-right: 0.5rem;
+    }
+
+    .blog2-chart img {
+        padding-left: 0.75rem;
+        padding-right: 0.75rem;
     }
 }
