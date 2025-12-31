@@ -134,3 +134,23 @@ main ol li {
     line-height: 1.6;
     margin-left: 3rem;
 }
+
+blockquote {
+    margin-left: 3rem;
+    margin-right: 3rem;
+    margin-bottom: 1.5rem;
+    margin-top: 1.5rem;
+    padding: 1.5rem 2rem;
+    border-left: 4px solid #112f47;
+    background-color: #f0f4f7;
+    font-size: 1.15rem;
+    font-style: italic;
+    color: lightblue;
+    line-height: 1.6;
+}
+
+blockquote p {
+    margin: 0;
+    margin-left: 0;
+    margin-right: 0;
+}
