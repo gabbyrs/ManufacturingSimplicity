@@ -1,0 +1,119 @@
+.hero {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    min-height: 90vh;
+    align-items: center;
+}
+
+.hero > div:first-child {
+    background-color: #112f47;
+    color: white;
+    padding: 4rem 6rem;
+    min-height: 90vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 2rem;
+}
+
+.hero > div:last-child {
+    background-image: url('../images/home.PNG');
+    background-size: cover;
+    background-position: center;
+    min-height: 90vh;
+}
+
+.hero .button {
+    display: inline-block;
+    background-color: white;
+    color: #1e3a5f;
+    padding: 1rem 2.5rem;
+    text-decoration: none;
+    font-size: 1.1rem;
+    font-weight: 600;
+    border-radius: 4px;
+    transition: all 0.3s ease;
+    align-self: flex-start;
+    margin-top: 1rem;
+}
+
+.hero .button:hover {
+    background-color: #f0f0f0;
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+.info {
+    background-color: #f8f9fa;
+    padding: 5rem 6rem;
+    text-align: center;
+}
+
+.info p {
+    font-size: 1.2rem;
+    line-height: 1.8;
+    color: #112f47;
+    max-width: 900px;
+    margin: 0 auto 1.5rem auto;
+}
+
+.what-we-do {
+    background-color: white;
+    padding: 5rem 6rem;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.what-we-do ul {
+    list-style: none;
+    margin: 2rem 0;
+    padding: 0;
+}
+
+.what-we-do ul li {
+    font-size: 1.2rem;
+    line-height: 1.8;
+    color: #112f47;
+    padding: 1rem 0;
+    padding-left: 2rem;
+    position: relative;
+}
+
+.call-to-action {
+    position: relative;
+    min-height: 60vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 5rem 2rem;
+    overflow: hidden;
+    background-color: #1e3a5f;
+}
+
+.call-to-action p {
+    font-size: 1.8rem;
+    color: white;
+    margin-bottom: 2rem;
+    position: relative;
+    z-index: 1;
+    max-width: 800px;
+}
+
+.call-to-action .button {
+    display: inline-block;
+    padding: 1rem 2.5rem;
+    background: white;
+    color: #112f47;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: 600;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.call-to-action .button:hover {
+    background-color: #f0f0f0;
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+}
