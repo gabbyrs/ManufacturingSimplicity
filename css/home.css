@@ -87,12 +87,10 @@
 
 .what-we-do {
     padding: 4rem 2rem;
-    max-width: 1000px;
-    margin: 0 auto;
+    margin: 0;
     background-image: url('../images/manufacturing.PNG');
     background-size: cover;
     background-position: center;
-    background-attachment: fixed;
     position: relative;
 }
 
@@ -103,31 +101,16 @@
     left: 0;
     right: 0;
     bottom: 0;
-    background-color: rgba(255, 255, 255, 0.9);
-    border-radius: 8px; 
+    background-color: rgba(255, 255, 255, 0.6);
     z-index: 1;
 }
 
 .what-we-do > * {
     position: relative;
     z-index: 2;
-}
-
-.what-we-do p {
-    font-size: 1.1rem;
-    line-height: 1.8;
-}
-
-.what-we-do ul {
-    list-style: disc;
-    margin: 2rem 0;
-    padding-left: 2rem;
-}
-
-.what-we-do ul li {
-    font-size: 1.1rem;
-    line-height: 1.8;
-    padding: 0.5rem 0;
+    max-width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .call-to-action {
