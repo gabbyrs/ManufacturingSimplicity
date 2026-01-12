@@ -47,14 +47,21 @@
 
 .info {
     display: grid;
-    grid-template-columns: 1fr 1fr;  
-    min-height: 50vh;
+    grid-template-columns: 1fr 1fr;
+    min-height: 70vh;
+    max-width: 1400px;
+    margin: 3rem auto;
+    background-color: #e8f4f8;
+    padding: 3rem;
+    border-radius: 8px;
 }
 
 .info > div:first-child {
     background-image: url('../images/lean.PNG');
     background-size: cover;
     background-position: center;
+    border-radius: 8px;
+    margin-right: 2rem;
 }
 
 .info > div:last-child {
@@ -65,13 +72,17 @@
     flex-direction: column;
     justify-content: center;
     gap: 2rem;
+    border-radius: 8px;
 }
 
 .info p {
-    font-size: 1.1rem;
+    font-size: 1.2rem;
     line-height: 1.8;
-    max-width: 900px;
-    margin: 0 auto 1.5rem auto;
+    margin: 0 0 1.5rem 0;
+}
+
+.info p:last-child {
+    margin-bottom: 0;
 }
 
 .what-we-do {
