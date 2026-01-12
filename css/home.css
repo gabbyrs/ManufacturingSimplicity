@@ -86,43 +86,42 @@
 }
 
 .what-we-do {
-    position: relative;
-    padding: 6rem 2rem;
+    padding: 4rem 2rem;
     max-width: 1000px;
     margin: 0 auto;
-    overflow: hidden;
+    background-image: url('../images/manufacturing.PNG');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    position: relative;
 }
 
 .what-we-do::before {
-    content: "";
+    content: '';
     position: absolute;
     top: 0;
     left: 0;
     right: 0;
     bottom: 0;
-    background-image: url('../images/whiteLogo.PNG');
-    background-size: contain;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-attachment: scroll;
-    opacity: 0.05;
-    z-index: -1;
-    pointer-events: none;
+    background-color: rgba(255, 255, 255, 0.9);
+    border-radius: 8px; 
+    z-index: 1;
+}
+
+.what-we-do > * {
+    position: relative;
+    z-index: 2;
 }
 
 .what-we-do p {
     font-size: 1.1rem;
     line-height: 1.8;
-    position: relative;
-    z-index: 1;
 }
 
 .what-we-do ul {
     list-style: disc;
     margin: 2rem 0;
     padding-left: 2rem;
-    position: relative;
-    z-index: 1;
 }
 
 .what-we-do ul li {
@@ -132,8 +131,8 @@
 }
 
 .call-to-action {
-    background-color: white;
-    color: #112f47;
+    background-color: #112f47;
+    color: white;
     text-align: center;
     padding: 4rem 2rem;
 }
