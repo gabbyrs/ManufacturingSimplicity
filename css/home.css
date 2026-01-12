@@ -46,8 +46,24 @@
 }
 
 .info {
-    padding: 4rem 2rem;
-    text-align: center;
+    display: grid;
+    grid-template-columns: 1fr 1fr;  
+}
+
+.info > div:first-child {
+    background-image: url('../images/lean.PNG');
+    background-size: cover;
+    background-position: center;
+}
+
+.info > div:last-child {
+    background-color: #112f47;
+    color: white;
+    padding: 4rem 6rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 2rem;
 }
 
 .info p {
@@ -84,7 +100,7 @@
     background-color: #112f47;
     color: white;
     text-align: center;
-    padding: 5rem 2rem;
+    padding: 4rem 2rem;
 }
 
 .call-to-action p {
