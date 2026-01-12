@@ -12,6 +12,7 @@
     flex-direction: column;
     justify-content: center;
     gap: 2rem;
+    align-items: flex-start;
 }
 
 .hero > div:last-child {
@@ -38,7 +39,6 @@
     text-decoration: none;
     font-weight: 600;
     border-radius: 4px;
-    align-self: flex-start;
 }
 
 .hero .button:hover {
@@ -209,7 +209,7 @@
     .hero > div:first-child {
         padding: 2rem 1.5rem;
     }
-    
+
     .hero h1 {
         font-size: 1.8rem;
     }
