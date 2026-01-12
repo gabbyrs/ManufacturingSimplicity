@@ -26,7 +26,7 @@
 }
 
 .hero p {
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     line-height: 1.6;
 }
 
@@ -76,7 +76,7 @@
 }
 
 .info p {
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     line-height: 1.8;
     margin: 0 0 1.5rem 0;
 }
@@ -112,7 +112,8 @@
 
 .what-we-do p {
     text-align: left; 
-    font-size: 1.5rem;
+    margin-bottom: 1.5rem;
+    font-size: 1.2rem;
     line-height: 1.6;
 }
 
@@ -121,15 +122,13 @@
     margin: 1.5rem 0 2rem 0;
     padding-left: 2.5rem; 
     list-style-position: outside;
+    font-size: 1.2rem;
 }
 
 .what-we-do ul li {
     margin-bottom: 0.75rem;
     line-height: 1.6;
-}
-
-.what-we-do ul li:last-child {
-    margin-bottom: 0;
+    font-size: 1.2rem;
 }
 
 .call-to-action {
