@@ -48,6 +48,7 @@
 .info {
     display: grid;
     grid-template-columns: 1fr 1fr;  
+    min-height: 50vh;
 }
 
 .info > div:first-child {
@@ -57,8 +58,8 @@
 }
 
 .info > div:last-child {
-    background-color: #112f47;
-    color: white;
+    background-color: white;
+    color: #112f47;
     padding: 4rem 6rem;
     display: flex;
     flex-direction: column;
