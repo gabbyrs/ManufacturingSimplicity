@@ -86,20 +86,43 @@
 }
 
 .what-we-do {
-    padding: 4rem 2rem;
+    position: relative;
+    padding: 6rem 2rem;
     max-width: 1000px;
     margin: 0 auto;
+    overflow: hidden;
+}
+
+.what-we-do::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-image: url('../images/whiteLogo.PNG');
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    opacity: 0.05;
+    z-index: -1;
+    pointer-events: none;
 }
 
 .what-we-do p {
     font-size: 1.1rem;
     line-height: 1.8;
+    position: relative;
+    z-index: 1;
 }
 
 .what-we-do ul {
     list-style: disc;
     margin: 2rem 0;
     padding-left: 2rem;
+    position: relative;
+    z-index: 1;
 }
 
 .what-we-do ul li {
@@ -109,8 +132,8 @@
 }
 
 .call-to-action {
-    background-color: #112f47;
-    color: white;
+    background-color: white;
+    color: #112f47;
     text-align: center;
     padding: 4rem 2rem;
 }
@@ -148,7 +171,7 @@
         left: 0;
         right: 0;
         bottom: 0;
-        background-color: rgba(17, 47, 71, 0.85);
+        background-color: #112f47;
         padding: 3rem 2rem;
         z-index: 1;
     }
