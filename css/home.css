@@ -110,7 +110,7 @@
     text-align: center; 
 }
 
-.what-we-do p:first-of-type {
+.what-we-do p {
     text-align: left; 
     margin-bottom: 1.5rem;
     font-size: 1.1rem;
@@ -131,13 +131,6 @@
 
 .what-we-do ul li:last-child {
     margin-bottom: 0;
-}
-
-.what-we-do p:last-of-type {
-    text-align: center; 
-    margin-top: 2rem;
-    font-size: 1.1rem;
-    line-height: 1.6;
 }
 
 .call-to-action {
