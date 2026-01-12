@@ -95,17 +95,18 @@
     text-align: center;
 }
 
-.what-we-do > * {
+.what-we-do .content-box {
     max-width: 1000px;
     margin-left: auto;
     margin-right: auto;
     background-color: rgba(255, 255, 255, 0.9);
-    padding: 1rem;
-    color:#112f47;
+    padding: 2rem;
+    color: #112f47;
+    border-radius: 8px;
 }
 
 .what-we-do ul {
-    text-align: right; 
+    text-align: left; 
     display: inline-block;
     margin: 1rem 0;
 }
