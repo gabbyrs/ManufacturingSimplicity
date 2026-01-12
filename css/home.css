@@ -2,14 +2,12 @@
     display: grid;
     grid-template-columns: 1fr 1fr;
     min-height: 90vh;
-    align-items: center;
 }
 
 .hero > div:first-child {
     background-color: #112f47;
     color: white;
     padding: 4rem 6rem;
-    min-height: 90vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -20,100 +18,90 @@
     background-image: url('../images/home.PNG');
     background-size: cover;
     background-position: center;
-    min-height: 90vh;
+}
+
+.hero h1 {
+    font-size: 3rem;
+    line-height: 1.2;
+}
+
+.hero p {
+    font-size: 1.2rem;
+    line-height: 1.6;
 }
 
 .hero .button {
     display: inline-block;
     background-color: white;
-    color: #1e3a5f;
+    color: #112f47;
     padding: 1rem 2.5rem;
     text-decoration: none;
-    font-size: 1.1rem;
     font-weight: 600;
     border-radius: 4px;
-    transition: all 0.3s ease;
     align-self: flex-start;
-    margin-top: 1rem;
 }
 
 .hero .button:hover {
     background-color: #f0f0f0;
-    transform: translateY(-2px);
-    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
 }
 
 .info {
-    background-color: #f8f9fa;
-    padding: 5rem 6rem;
+    padding: 4rem 2rem;
     text-align: center;
 }
 
 .info p {
-    font-size: 1.2rem;
+    font-size: 1.1rem;
     line-height: 1.8;
-    color: #112f47;
     max-width: 900px;
     margin: 0 auto 1.5rem auto;
 }
 
 .what-we-do {
-    background-color: white;
-    padding: 5rem 6rem;
-    max-width: 1200px;
+    padding: 4rem 2rem;
+    max-width: 1000px;
     margin: 0 auto;
 }
 
+.what-we-do p {
+    font-size: 1.1rem;
+    line-height: 1.8;
+}
+
 .what-we-do ul {
-    list-style: none;
+    list-style: disc;
     margin: 2rem 0;
-    padding: 0;
+    padding-left: 2rem;
 }
 
 .what-we-do ul li {
-    font-size: 1.2rem;
+    font-size: 1.1rem;
     line-height: 1.8;
-    color: #112f47;
-    padding: 1rem 0;
-    padding-left: 2rem;
-    position: relative;
+    padding: 0.5rem 0;
 }
 
 .call-to-action {
-    position: relative;
-    min-height: 60vh;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
+    background-color: #112f47;
+    color: white;
     text-align: center;
     padding: 5rem 2rem;
-    overflow: hidden;
-    background-color: #1e3a5f;
 }
 
 .call-to-action p {
-    font-size: 1.8rem;
-    color: white;
+    font-size: 1.5rem;
     margin-bottom: 2rem;
-    position: relative;
-    z-index: 1;
-    max-width: 800px;
 }
 
 .call-to-action .button {
     display: inline-block;
-    padding: 1rem 2.5rem;
-    background: white;
+    background-color: white;
     color: #112f47;
+    padding: 1rem 2.5rem;
     text-decoration: none;
-    border-radius: 5px;
     font-weight: 600;
-    transition: transform 0.3s, box-shadow 0.3s;
+    border-radius: 4px;
 }
 
 .call-to-action .button:hover {
     background-color: #f0f0f0;
-    transform: translateY(-2px);
-    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
 }
