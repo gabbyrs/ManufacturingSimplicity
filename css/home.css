@@ -26,7 +26,7 @@
 }
 
 .hero p {
-    font-size: 1.2rem;
+    font-size: 1.5rem;
     line-height: 1.6;
 }
 
@@ -76,7 +76,7 @@
 }
 
 .info p {
-    font-size: 1.2rem;
+    font-size: 1.5rem;
     line-height: 1.8;
     margin: 0 0 1.5rem 0;
 }
@@ -112,8 +112,7 @@
 
 .what-we-do p {
     text-align: left; 
-    margin-bottom: 1.5rem;
-    font-size: 1.1rem;
+    font-size: 1.5rem;
     line-height: 1.6;
 }
 
