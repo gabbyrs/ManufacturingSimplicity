@@ -94,23 +94,18 @@
     position: relative;
 }
 
-.what-we-do::before {
-    content: '';
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    background-color: rgba(255, 255, 255, 0.6);
-    z-index: 1;
-}
-
 .what-we-do > * {
-    position: relative;
-    z-index: 2;
     max-width: 1000px;
     margin-left: auto;
     margin-right: auto;
+}
+
+.what-we-do h2,
+.what-we-do p,
+.what-we-do ul,
+.what-we-do li {
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+    color: white; 
 }
 
 .call-to-action {
@@ -153,7 +148,7 @@
         left: 0;
         right: 0;
         bottom: 0;
-        background-color: #112f47;
+        background-color: rgba(17, 47, 71, 0.85);;
         padding: 3rem 2rem;
         z-index: 1;
     }
