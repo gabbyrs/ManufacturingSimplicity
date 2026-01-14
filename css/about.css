@@ -26,6 +26,8 @@
     background: #f8f9fa;
     display: flex;
     justify-content: center;
+    flex-wrap: wrap;
+    gap: 2rem;
 }
 
 .card {
@@ -134,13 +136,9 @@
     box-shadow: 0 4px 12px rgba(0,0,0,0.2);
 }
 
-/* tablet/iPad: center the third card when it wraps (768px - 1023px) */
-@media (max-width: 1023px) and (min-width: 768px) {
-    .three-columns {
-        justify-content: center;
-    }
-    
-    .card:nth-child(3) {
-        margin: 0 auto;
+@media (min-width: 768px) and (max-width: 1023px) {
+    .three-columns .card:nth-child(3) {
+        margin-left: auto;
+        margin-right: auto;
     }
 }
