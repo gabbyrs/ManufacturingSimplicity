@@ -70,14 +70,14 @@ header {
 /* responsive design for tablets (768px - 1023px) */
 @media (max-width: 1023px) {
     :root {
-        --nav-height: 72px;
+        --nav-height: 120px;
     }
 
     header {
         & > nav {
             flex-direction: column;
             height: auto;
-            padding: 0 20px;
+            padding: 15px 20px;
             
             & .nav-business {
                 gap: 12px;
@@ -94,6 +94,7 @@ header {
 
             & .nav-links {
                 gap: 20px;
+                margin-top: 10px;
                 
                 & li a {
                     font-size: 16px;
