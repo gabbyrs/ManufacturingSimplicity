@@ -137,11 +137,6 @@ body {
         padding: 1.5rem 1rem;
     }
     
-    .three-columns .container > div {
-        grid-template-columns: 1fr !important;
-        gap: 2rem;
-    }
-    
     .card {
         padding: 1.5rem;
     }
@@ -232,10 +227,6 @@ body {
     
     .three-columns {
         padding: 1.25rem 1rem;
-    }
-    
-    .three-columns .container > div {
-        gap: 1.5rem;
     }
     
     .card {
