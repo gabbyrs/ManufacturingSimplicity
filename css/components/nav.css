@@ -75,6 +75,8 @@ header {
 
     header {
         & > nav {
+            flex-direction: column;
+            height: auto;
             padding: 0 20px;
             
             & .nav-business {
