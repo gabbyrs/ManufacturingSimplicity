@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Manufacturing Simplicity - Book</title>
+    <link rel="stylesheet" href="css/general.css">
+    <link rel="stylesheet" href="css/variables/nav.css">
+    <link rel="stylesheet" href="css/components/nav.css">
+
+    <style>
+        .book-hero {
+            padding: 80px 10%;
+            background-color: #143046;
+            color: white;
+            display: grid;
+            grid-template-columns: 1.2fr 0.8fr;
+            gap: 50px;
+            align-items: center;
+        }
+
+        .book-hero h1 {
+            font-size: 48px;
+            margin-bottom: 20px;
+        }
+
+        .book-hero h2 {
+            font-size: 24px;
+            font-weight: 400;
+            margin-bottom: 30px;
+            line-height: 1.4;
+        }
+
+        .book-hero p {
+            font-size: 18px;
+            line-height: 1.6;
+            margin-bottom: 30px;
+        }
+
+        .book-cover-placeholder {
+            background-color: white;
+            color: #143046;
+            min-height: 420px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            padding: 30px;
+            border-radius: 8px;
+            font-size: 22px;
+            font-weight: bold;
+        }
+
+        .book-section {
+            padding: 70px 10%;
+        }
+
+        .book-section h2 {
+            color: #143046;
+            font-size: 34px;
+            margin-bottom: 20px;
+        }
+
+        .book-section p {
+            font-size: 18px;
+            line-height: 1.7;
+            margin-bottom: 18px;
+        }
+
+        .bonus-section {
+            background-color: #f5f5f5;
+            padding: 70px 10%;
+        }
+
+        .bonus-section h2 {
+            color: #143046;
+            font-size: 34px;
+            margin-bottom: 20px;
+        }
+
+        .bonus-section p {
+            font-size: 18px;
+            line-height: 1.7;
+            margin-bottom: 18px;
+        }
+
+        .bonus-list {
+            font-size: 18px;
+            line-height: 1.8;
+            margin-bottom: 30px;
+        }
+
+        .button-row {
+            display: flex;
+            gap: 20px;
+            flex-wrap: wrap;
+            margin-top: 30px;
+        }
+
+        .book-button {
+            display: inline-block;
+            background-color: white;
+            color: #143046;
+            padding: 14px 24px;
+            text-decoration: none;
+            font-weight: bold;
+            border-radius: 4px;
+            border: 2px solid white;
+        }
+
+        .book-button-secondary {
+            display: inline-block;
+            background-color: transparent;
+            color: white;
+            padding: 14px 24px;
+            text-decoration: none;
+            font-weight: bold;
+            border-radius: 4px;
+            border: 2px solid white;
+        }
+
+        .dark-button {
+            display: inline-block;
+            background-color: #143046;
+            color: white;
+            padding: 14px 24px;
+            text-decoration: none;
+            font-weight: bold;
+            border-radius: 4px;
+            border: 2px solid #143046;
+        }
+
+        .note {
+            font-size: 15px;
+            color: #555;
+            margin-top: 20px;
+        }
+
+        @media (max-width: 800px) {
+            .book-hero {
+                grid-template-columns: 1fr;
+                padding: 50px 7%;
+            }
+
+            .book-hero h1 {
+                font-size: 38px;
+            }
+
+            .book-section,
+            .bonus-section {
+                padding: 50px 7%;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="nav-business">
+                <img src="images/whiteLogo.PNG" alt="Manufacturing Simplicity Logo">
+                <h1>MANUFACTURING SIMPLICITY</h1>
+            </div>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="book.html">Book</a></li>
+                <li><a href="blogs.html">Blogs</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="book-hero">
+            <div>
+                <h1>Manufacturing Simplicity</h1>
+                <h2>A practical guide for leaders who need to simplify operations, improve execution, and build a culture that performs.</h2>
+                <p>
+                    Manufacturing Simplicity is written for CEOs, COOs, plant leaders, operations executives, and change agents who want to improve performance without burying their organizations in unnecessary complexity.
+                </p>
+                <div class="button-row">
+                    <a href="#" class="book-button">Amazon Link Coming Soon</a>
+                    <a href="#bonus-materials" class="book-button-secondary">Request Bonus Materials</a>
+                </div>
+            </div>
+
+            <div class="book-cover-placeholder">
+                Book cover image will go here
+            </div>
+        </section>
+
+        <section class="book-section">
+            <h2>About the Book</h2>
+            <p>
+                Many organizations want better results, but they make improvement harder than it needs to be. They launch too many initiatives, chase too many priorities, and create systems that confuse the very people they are meant to help.
+            </p>
+            <p>
+                Manufacturing Simplicity shows leaders how to cut through that noise. The book explains how to assess the current state, simplify processes, strengthen daily execution, engage employees, and build a practical management system that keeps improvement alive.
+            </p>
+            <p>
+                This is not a theory book. It is a hands-on guide based on real operational turnarounds, real manufacturing environments, and the leadership discipline required to make change last.
+            </p>
+        </section>
+
+        <section id="bonus-materials" class="bonus-section">
+            <h2>Request the Bonus Materials</h2>
+            <p>
+                As mentioned in the book, readers can request bonus materials designed to help apply the ideas from Manufacturing Simplicity.
+            </p>
+            <p>
+                These tools are intended to help you assess your business, identify complexity, collect improvement opportunities, and begin translating the book into practical action.
+            </p>
+
+            <ul class="bonus-list">
+                <li>Complexity Diagnostic Worksheet</li>
+                <li>Waste Collection Form and Workshop Sheet</li>
+                <li>Business Assessment Checklist</li>
+                <li>Lean Maturity Quick Diagnostic</li>
+                <li>Additional implementation templates and support tools</li>
+            </ul>
+
+            <a href="#" class="dark-button">Bonus Materials Request Form Coming Soon</a>
+
+            <p class="note">
+                The request form will be added soon. Readers will be able to enter their contact information and receive the materials by email.
+            </p>
+        </section>
+    </main>
+</body>
+</html>
