@@ -61,7 +61,51 @@
             line-height: 1.7;
             margin-bottom: 18px;
         }
+.endorsements-section {
+    padding: 70px 10%;
+    background-color: white;
+}
 
+.endorsements-section h2 {
+    color: #143046;
+    font-size: 34px;
+    margin-bottom: 30px;
+}
+
+.endorsements-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 24px;
+}
+
+.endorsement-card {
+    border: 1px solid #dddddd;
+    border-radius: 8px;
+    padding: 28px;
+    background-color: #fafafa;
+}
+
+.endorsement-card p {
+    font-size: 17px;
+    line-height: 1.7;
+    margin-bottom: 18px;
+}
+
+.endorsement-card .endorser {
+    color: #143046;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+@media (max-width: 800px) {
+    .endorsements-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .endorsements-section {
+        padding: 50px 7%;
+    }
+}
         .bonus-section {
             background-color: #f5f5f5;
             padding: 70px 10%;
@@ -194,6 +238,61 @@
                 This is not a theory book. It is a hands-on guide based on real operational turnarounds, real manufacturing environments, and the leadership discipline required to make change last.
             </p>
         </section>
+
+        <section class="endorsements-section">
+    <h2>Endorsements</h2>
+
+    <div class="endorsements-grid">
+        <div class="endorsement-card">
+            <p>
+                I’ve had the privilege of working with Eduardo for several years and getting to know him outside of work for the better part of a decade. This book is a testament to what true operational leadership looks like in practice. Eduardo doesn’t just understand operations, he lives it.
+            </p>
+            <p>
+                The lessons in these pages represent only a fraction of the insight, discipline, and hard-won experience he has applied consistently throughout his career. Anyone looking to build scalable, resilient, and high-performing operations will find this book both practical and invaluable.
+            </p>
+            <p class="endorser">David Metrena, CEO/CCO</p>
+        </div>
+
+        <div class="endorsement-card">
+            <p>
+                Lean is about simplicity, and that is exactly what this insightful and practical book delivers.
+            </p>
+            <p>
+                Eduardo Pagani distills more than 30 years of experience into a clear and actionable guide, bringing powerful Lean manufacturing concepts and tools into real-world application. By following the path proposed in this book, organizations go far beyond simply implementing Lean. They build a strong and lasting Lean culture.
+            </p>
+            <p>
+                As the author puts it, “you don’t do Lean, you become Lean.”
+            </p>
+            <p>
+                A must-read for leaders and change agents committed to transforming their culture and achieving sustainable results.
+            </p>
+            <p class="endorser">Denis Tarti, Operations Executive and Consultant</p>
+        </div>
+
+        <div class="endorsement-card">
+            <p>
+                Complexity is the silent killer of profits and morale. In Manufacturing Simplicity, Eduardo Pagani gives you the surgical tools to strip away the waste and restore operational clarity.
+            </p>
+            <p>
+                This isn't just another Lean book, it’s a hands-on manual for building a resilient, high-performance organization. If you're tired of firefighting, this is your exit strategy.
+            </p>
+            <p class="endorser">Cesar R. Pagani, Vice President</p>
+        </div>
+
+        <div class="endorsement-card">
+            <p>
+                Manufacturing Simplicity breaks down Lean manufacturing in a way that feels practical, clear, and accessible, especially for a VP of Commercial Product Management like myself without an engineering background.
+            </p>
+            <p>
+                Rather than overwhelming the reader with jargon, Pagani helps build the mindset of seeing inefficiencies, understanding their business impact, and then identifying opportunities to help organizations unlock real, sustainable change.
+            </p>
+            <p>
+                My only regret is that I didn’t have this book at my previous job. It would have been so useful in connecting operational improvement to how we worked on customer-driven product improvements. Waste not, want not!
+            </p>
+            <p class="endorser">Mattias Isaksson, Marketing and Product Management Executive</p>
+        </div>
+    </div>
+</section>
 
         <section id="bonus-materials" class="bonus-section">
             <h2>Request the Bonus Materials</h2>
