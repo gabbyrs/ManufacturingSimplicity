@@ -1,342 +1,144 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Manufacturing Simplicity - Book</title>
-    <link rel="stylesheet" href="css/general.css">
-    <link rel="stylesheet" href="css/variables/nav.css">
-    <link rel="stylesheet" href="css/components/nav.css">
-
-    <style>
-        .book-hero {
-            padding: 80px 10%;
-            background-color: #143046;
-            color: white;
-            display: grid;
-            grid-template-columns: 1.2fr 0.8fr;
-            gap: 50px;
-            align-items: center;
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Manufacturing Simplicity: The Turnaround Playbook | Eduardo R. Pagani</title>
+<meta name="description" content="A practical Lean transformation and operational turnaround book for leaders who want to eliminate complexity, improve execution, and build systems that last.">
+<meta name="author" content="Eduardo R. Pagani">
+<meta name="robots" content="index, follow, max-image-preview:large">
+<meta name="theme-color" content="#143046">
+<link rel="canonical" href="https://manufacturingsimplicity.com/book.html">
+<link rel="stylesheet" href="css/general.css">
+<link rel="stylesheet" href="css/variables/nav.css">
+<link rel="stylesheet" href="css/components/nav.css">
+<meta property="og:type" content="book">
+<meta property="og:site_name" content="Manufacturing Simplicity">
+<meta property="og:title" content="Manufacturing Simplicity: The Turnaround Playbook for Leaders Who Want to Eliminate Complexity and Build Systems That Last">
+<meta property="og:description" content="A practical field manual for leaders who need to simplify operations, improve execution, and build a culture of continuous improvement that lasts.">
+<meta property="og:url" content="https://manufacturingsimplicity.com/book.html">
+<meta property="og:image" content="https://manufacturingsimplicity.com/images/book-cover-new.png">
+<meta property="og:image:alt" content="Cover of Manufacturing Simplicity by Eduardo R. Pagani">
+<meta property="book:author" content="Eduardo R. Pagani">
+<meta property="book:isbn" content="979-8-90158-219-0">
+<meta property="book:release_date" content="2026-06-17">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Manufacturing Simplicity: The Turnaround Playbook">
+<meta name="twitter:description" content="A practical guide to eliminating complexity, improving execution, and building systems that last.">
+<meta name="twitter:image" content="https://manufacturingsimplicity.com/images/book-cover-new.png">
+<script type="application/ld+json">{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Organization",
+      "@id": "https://manufacturingsimplicity.com/#organization",
+      "name": "Manufacturing Simplicity, LLC",
+      "url": "https://manufacturingsimplicity.com/",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://manufacturingsimplicity.com/images/whiteLogo.PNG"
+      }
+    },
+    {
+      "@type": "Person",
+      "@id": "https://manufacturingsimplicity.com/about.html#eduardo-r-pagani",
+      "name": "Eduardo R. Pagani",
+      "url": "https://manufacturingsimplicity.com/about.html",
+      "jobTitle": "Lean Transformation Consultant and Author",
+      "worksFor": {
+        "@id": "https://manufacturingsimplicity.com/#organization"
+      },
+      "sameAs": [
+        "https://www.linkedin.com/in/eduardopagani"
+      ]
+    },
+    {
+      "@type": "Book",
+      "@id": "https://manufacturingsimplicity.com/book.html#book",
+      "name": "Manufacturing Simplicity",
+      "headline": "Manufacturing Simplicity: The Turnaround Playbook for Leaders Who Want to Eliminate Complexity and Build Systems That Last",
+      "alternativeHeadline": "The Turnaround Playbook for Leaders Who Want to Eliminate Complexity and Build Systems That Last",
+      "url": "https://manufacturingsimplicity.com/book.html",
+      "image": "https://manufacturingsimplicity.com/images/book-cover-new.png",
+      "author": {
+        "@id": "https://manufacturingsimplicity.com/about.html#eduardo-r-pagani"
+      },
+      "publisher": {
+        "@type": "Organization",
+        "name": "Game Changer Publishing",
+        "url": "https://www.gamechangerpublishing.com/"
+      },
+      "datePublished": "2026-06-17",
+      "inLanguage": "en-US",
+      "description": "A practical turnaround playbook for leaders who need to eliminate operational complexity, improve execution, apply Lean methods to the right priorities, engage employees, and build systems that sustain continuous improvement.",
+      "genre": [
+        "Business",
+        "Management",
+        "Lean manufacturing",
+        "Operational excellence",
+        "Business turnaround"
+      ],
+      "keywords": "Lean transformation, manufacturing turnaround, operational excellence, continuous improvement, business simplification, Lean leadership, Kaizen, policy deployment, daily management, organizational culture",
+      "isbn": [
+        "979-8-90158-219-0",
+        "979-8-90158-184-1",
+        "979-8-90158-185-8"
+      ],
+      "sameAs": [
+        "https://www.amazon.com/dp/B0H4XM8DMH"
+      ],
+      "workExample": [
+        {
+          "@type": "Book",
+          "bookFormat": "https://schema.org/Paperback",
+          "isbn": "979-8-90158-219-0"
+        },
+        {
+          "@type": "Book",
+          "bookFormat": "https://schema.org/Hardcover",
+          "isbn": "979-8-90158-184-1"
+        },
+        {
+          "@type": "Book",
+          "bookFormat": "https://schema.org/EBook",
+          "isbn": "979-8-90158-185-8"
         }
-
-        .book-hero h1 {
-            font-size: 48px;
-            margin-bottom: 20px;
-        }
-
-        .book-hero h2 {
-            font-size: 24px;
-            font-weight: 400;
-            margin-bottom: 30px;
-            line-height: 1.4;
-        }
-
-        .book-hero p {
-            font-size: 18px;
-            line-height: 1.6;
-            margin-bottom: 30px;
-        }
-
-        .book-cover {
-    width: 100%;
-    max-width: 360px;
-    display: block;
-    margin: 0 auto;
-    border-radius: 6px;
-    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.25);
-}
-
-        .book-section {
-            padding: 70px 10%;
-        }
-
-        .book-section h2 {
-            color: #143046;
-            font-size: 34px;
-            margin-bottom: 20px;
-        }
-
-        .book-section p {
-            font-size: 18px;
-            line-height: 1.7;
-            margin-bottom: 18px;
-        }
-.endorsements-section {
-    padding: 70px 10%;
-    background-color: white;
-}
-
-.endorsements-section h2 {
-    color: #143046;
-    font-size: 34px;
-    margin-bottom: 30px;
-}
-
-.endorsements-grid {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 24px;
-}
-
-.endorsement-card {
-    border: 1px solid #dddddd;
-    border-radius: 8px;
-    padding: 28px;
-    background-color: #fafafa;
-}
-
-.endorsement-card p {
-    font-size: 17px;
-    line-height: 1.7;
-    margin-bottom: 18px;
-}
-
-.endorsement-card .endorser {
-    color: #143046;
-    font-weight: bold;
-    margin-top: 20px;
-}
-
-@media (max-width: 800px) {
-    .endorsements-grid {
-        grid-template-columns: 1fr;
+      ]
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://manufacturingsimplicity.com/book.html#webpage",
+      "url": "https://manufacturingsimplicity.com/book.html",
+      "name": "Manufacturing Simplicity: The Turnaround Playbook",
+      "description": "Learn about Eduardo R. Pagani’s practical Lean transformation and operational turnaround book, including chapter summaries, endorsements, FAQs, and bonus materials.",
+      "about": {
+        "@id": "https://manufacturingsimplicity.com/book.html#book"
+      },
+      "mainEntity": {
+        "@id": "https://manufacturingsimplicity.com/book.html#book"
+      },
+      "publisher": {
+        "@id": "https://manufacturingsimplicity.com/#organization"
+      }
     }
-
-    .endorsements-section {
-        padding: 50px 7%;
-    }
-}
-        .bonus-section {
-            background-color: #f5f5f5;
-            padding: 70px 10%;
-        }
-
-        .bonus-section h2 {
-            color: #143046;
-            font-size: 34px;
-            margin-bottom: 20px;
-        }
-
-        .bonus-section p {
-            font-size: 18px;
-            line-height: 1.7;
-            margin-bottom: 18px;
-        }
-
-        .bonus-list {
-            font-size: 18px;
-            line-height: 1.8;
-            margin-bottom: 30px;
-        }
-
-        .button-row {
-            display: flex;
-            gap: 20px;
-            flex-wrap: wrap;
-            margin-top: 30px;
-        }
-
-        .book-button {
-            display: inline-block;
-            background-color: white;
-            color: #143046;
-            padding: 14px 24px;
-            text-decoration: none;
-            font-weight: bold;
-            border-radius: 4px;
-            border: 2px solid white;
-        }
-
-        .book-button-secondary {
-            display: inline-block;
-            background-color: transparent;
-            color: white;
-            padding: 14px 24px;
-            text-decoration: none;
-            font-weight: bold;
-            border-radius: 4px;
-            border: 2px solid white;
-        }
-
-        .dark-button {
-            display: inline-block;
-            background-color: #143046;
-            color: white;
-            padding: 14px 24px;
-            text-decoration: none;
-            font-weight: bold;
-            border-radius: 4px;
-            border: 2px solid #143046;
-        }
-
-        .note {
-            font-size: 15px;
-            color: #555;
-            margin-top: 20px;
-        }
-
-        @media (max-width: 800px) {
-            .book-hero {
-                grid-template-columns: 1fr;
-                padding: 50px 7%;
-            }
-
-            .book-hero h1 {
-                font-size: 38px;
-            }
-
-            .book-section,
-            .bonus-section {
-                padding: 50px 7%;
-            }
-        }
-    </style>
+  ]
+}</script>
+<style>
+:root{--navy:#143046;--navy2:#0e2333;--white:#fff;--light:#f5f6f7;--line:#d9dee2;--text:#26333c;--muted:#5e6a72;--max:1180px}*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;color:var(--text);background:#fff}main{overflow:hidden}.wrap{width:100%;max-width:var(--max);margin:auto}.hero{padding:80px 8%;background:var(--navy);color:#fff}.hero-grid{display:grid;grid-template-columns:1.25fr .75fr;gap:64px;align-items:center}.eyebrow{display:inline-block;margin:0 0 18px;padding:7px 12px;border:1px solid #ffffff73;border-radius:999px;font-size:14px;font-weight:700;letter-spacing:.08em;text-transform:uppercase}.hero h1{margin:0 0 12px;font-size:clamp(42px,6vw,68px);line-height:1.02}.subtitle{margin:0 0 18px;font-size:clamp(22px,2.5vw,31px);line-height:1.3}.author{font-size:18px;font-weight:700}.hero-copy{font-size:18px;line-height:1.7}.cover{width:100%;max-width:360px;display:block;margin:auto;border-radius:6px;box-shadow:0 16px 38px #0005}.buttons{display:flex;gap:16px;flex-wrap:wrap;margin-top:30px}.btn{display:inline-flex;align-items:center;justify-content:center;min-height:50px;padding:13px 22px;border-radius:5px;text-decoration:none;font-weight:700}.btn-light{background:#fff;color:var(--navy);border:2px solid #fff}.btn-outline{color:#fff;border:2px solid #fff}.btn-dark{background:var(--navy);color:#fff;border:2px solid var(--navy)}.facts-bg{padding:0 8%;background:linear-gradient(to bottom,var(--navy) 0 74px,#fff 74px)}.facts{padding:30px;background:#fff;border:1px solid var(--line);border-radius:10px;box-shadow:0 10px 28px #1430461f}.facts h2,.section h2,.endorse h2,.bonus h2{margin:0 0 22px;color:var(--navy);font-size:clamp(31px,4vw,42px);line-height:1.18}.facts dl{display:grid;grid-template-columns:repeat(4,1fr);gap:20px 28px;margin:0}.facts dt{margin-bottom:5px;color:var(--muted);font-size:13px;font-weight:700;text-transform:uppercase}.facts dd{margin:0;line-height:1.45}.section,.endorse,.bonus{padding:76px 8%}.alt,.bonus{background:var(--light)}.narrow{max-width:900px}.kicker{margin:0 0 8px;color:var(--muted);font-size:14px;font-weight:700;letter-spacing:.08em;text-transform:uppercase}.section p,.bonus p{font-size:18px;line-height:1.72}.lead{color:var(--navy);font-size:22px!important;line-height:1.55!important}.two{display:grid;grid-template-columns:1fr 1fr;gap:28px}.card{padding:30px;background:#fff;border:1px solid var(--line);border-radius:9px}.card h2{font-size:31px}ul{font-size:17px;line-height:1.72}li{margin-bottom:8px}.three{display:grid;grid-template-columns:repeat(3,1fr);gap:22px;margin-top:30px}.feature{padding:27px;background:#fff;border:1px solid var(--line);border-top:5px solid var(--navy);border-radius:8px}.feature h3,.media h3{color:var(--navy)}.chapter-group{margin-top:34px}.chapter-group>h3{color:var(--navy);padding-bottom:10px;border-bottom:2px solid var(--navy)}details{margin-bottom:12px;background:#fff;border:1px solid var(--line);border-radius:7px}summary{cursor:pointer;padding:18px 20px;color:var(--navy);font-weight:700}details p{padding:0 20px 20px;margin:0;font-size:16px!important}.endorse-head{margin-bottom:30px}.endorse-grid{display:grid;grid-template-columns:1fr 1fr;gap:24px}blockquote{margin:0}.quote{padding:28px;background:#fafafa;border:1px solid #ddd;border-radius:8px}.quote p{font-size:17px;line-height:1.7}.who{color:var(--navy);font-weight:700}.media-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:22px;margin-top:28px}.media{padding:26px;background:#fff;border:1px solid var(--line);border-radius:8px}.link{color:var(--navy);font-weight:700;text-underline-offset:3px}.faq{display:grid;gap:14px;margin-top:28px}.bonus-grid{display:grid;grid-template-columns:1.2fr .8fr;gap:42px}.note{color:var(--muted);font-size:15px!important}.final{padding:70px 8%;background:var(--navy2);color:#fff;text-align:center}.final .wrap{max-width:850px}.final h2{font-size:clamp(31px,4vw,43px)}.final p{font-size:18px;line-height:1.7}.final .buttons{justify-content:center}@media(max-width:980px){.facts dl{grid-template-columns:1fr 1fr}.three,.media-grid{grid-template-columns:1fr}}@media(max-width:800px){.hero,.section,.endorse,.bonus,.final{padding:54px 7%}.hero-grid,.two,.bonus-grid{grid-template-columns:1fr}.facts-bg{padding:0 7%}.endorse-grid{grid-template-columns:1fr}.cover{max-width:300px}}@media(max-width:520px){.facts dl{grid-template-columns:1fr}.btn{width:100%}.card,.feature,.quote,.media{padding:23px}}
+</style>
 </head>
 <body>
-    <header>
-        <nav>
-            <div class="nav-business">
-                <img src="images/whiteLogo.PNG" alt="Manufacturing Simplicity Logo">
-                <h1>MANUFACTURING SIMPLICITY</h1>
-            </div>
-            <ul class="nav-links">
-                <li><a href="index.html">Home</a></li>
-                <li><a href="book.html">Book</a></li>
-                <li><a href="services.html">Services</a></li>
-                <li><a href="blogs.html">Blogs</a></li>
-                <li><a href="about.html">About</a></li>
-                <li><a href="contact.html">Contact</a></li>
-            </ul>
-        </nav>
-    </header>
-
-    <main>
-        <section class="book-hero">
-            <div>
-                <h1>Manufacturing Simplicity</h1>
-                <h2>A practical guide for leaders who need to simplify operations, improve execution, and build a culture that performs.</h2>
-                <p>
-                    Manufacturing Simplicity is written for CEOs, COOs, plant leaders, operations executives, and change agents who want to improve performance without burying their organizations in unnecessary complexity.
-                </p>
-                <div class="button-row">
-                    <a href=https://www.amazon.com/Manufacturing-Simplicity-Turnaround-Eliminate-Complexity-ebook/dp/B0H4XM8DMH/ref=sr_1_1?crid=2EFH092OCI2NK&dib=eyJ2IjoiMSJ9.UZhgHTHRU2kFs7Dc2cxu2j3bHjut7aHtxyraFQeTeE9jGX_7NNtmGtiNJ5WoU9H3tN9SFQV4hOx2WDw77t5p0tvOa_7P3t9BwLhOfSiYUm0XAxzDxiJibwl8dGIfYfRIQ-1dO-Ghcu6Xzdcd0VvD8jHsqyMk0BiPphDaDrkiwdCK94ZUiTsO5ZCF-kAy4JsqN0cpxISHR5k7dGhKKxFef7V9s7fHGM9CZcn68CRtU2Q.fCTJotvCJsLQtU5xiN-89CcW_bajS7HhzuT_hRMAaVU&dib_tag=se&keywords=manufacturing+simplicity&qid=1781902955&sprefix=%2Caps%2C731&sr=8-1 class="book-button" target="_blank" rel="noopener noreferrer">Now Available on Amazon</a>
-                    <a href="#bonus-materials" class="book-button-secondary">Request Bonus Materials</a>
-                </div>
-            </div>
-
-            <img src="images/book-cover-new.png" alt="Manufacturing Simplicity book cover" class="book-cover">
-        </section>
-
-<section class="book-section">
-    <h2>About the Book</h2>
-
-    <p>
-        Manufacturing Simplicity is a practical playbook for leaders who are tired of watching good people struggle inside bad systems.
-    </p>
-
-    <p>
-        Most businesses do not fail because people are lazy, careless, or resistant to change. They struggle because complexity slowly takes over. Priorities multiply. Problems hide in plain sight. Meetings replace action. Metrics create noise instead of focus. Improvement projects begin with energy, then fade when daily pressure returns.
-    </p>
-
-    <p>
-        This book shows leaders how to cut through that complexity and build an organization that can see problems, solve them quickly, and sustain improvement long after the consultant, executive, or crisis has moved on.
-    </p>
-
-    <p>
-        Drawing from decades of real manufacturing leadership, operational turnarounds, Lean transformation, and regulated medical device experience, Eduardo Pagani takes readers beyond theory and into the practical work of simplifying a business. He explains how to assess the current state, align the organization around the few priorities that matter, strengthen daily management, engage employees, run effective kaizens, improve office and factory processes, and create a culture where continuous improvement becomes part of how the business operates.
-    </p>
-
-    <p>
-        This is not a book about adding more tools. It is a book about removing the clutter that keeps businesses from performing.
-    </p>
-
-    <p>
-        Whether you are a CEO, COO, plant manager, operations leader, business owner, or change agent, Manufacturing Simplicity will help you recognize where complexity is slowing you down and give you a clear path to restore focus, improve performance, and build a stronger operating system.
-    </p>
-
-    <p>
-        If your organization is busy but not improving fast enough, this book was written for you.
-    </p>
-</section>
-
-        <section class="endorsements-section">
-    <h2>Endorsements</h2>
-
-    <div class="endorsements-grid">
-        <div class="endorsement-card">
-            <p>
-                I’ve had the privilege of working with Eduardo for several years and getting to know him outside of work for the better part of a decade. This book is a testament to what true operational leadership looks like in practice. Eduardo doesn’t just understand operations, he lives it.
-            </p>
-            <p>
-                The lessons in these pages represent only a fraction of the insight, discipline, and hard-won experience he has applied consistently throughout his career. Anyone looking to build scalable, resilient, and high-performing operations will find this book both practical and invaluable.
-            </p>
-            <p class="endorser">David Metrena, CEO/CCO</p>
-        </div>
-
-        <div class="endorsement-card">
-            <p>
-                Lean is about simplicity, and that is exactly what this insightful and practical book delivers.
-            </p>
-            <p>
-                Eduardo Pagani distills more than 30 years of experience into a clear and actionable guide, bringing powerful Lean manufacturing concepts and tools into real-world application. By following the path proposed in this book, organizations go far beyond simply implementing Lean. They build a strong and lasting Lean culture.
-            </p>
-            <p>
-                As the author puts it, “you don’t do Lean, you become Lean.”
-            </p>
-            <p>
-                A must-read for leaders and change agents committed to transforming their culture and achieving sustainable results.
-            </p>
-            <p class="endorser">Denis Tarti, Operations Executive and Consultant</p>
-        </div>
-
-        <div class="endorsement-card">
-            <p>
-                Complexity is the silent killer of profits and morale. In Manufacturing Simplicity, Eduardo Pagani gives you the surgical tools to strip away the waste and restore operational clarity.
-            </p>
-            <p>
-                This isn't just another Lean book, it’s a hands-on manual for building a resilient, high-performance organization. If you're tired of firefighting, this is your exit strategy.
-            </p>
-            <p class="endorser">Cesar R. Pagani, Vice President</p>
-        </div>
-
-        <div class="endorsement-card">
-            <p>
-                Manufacturing Simplicity breaks down Lean manufacturing in a way that feels practical, clear, and accessible, especially for a VP of Commercial Product Management like myself without an engineering background.
-            </p>
-            <p>
-                Rather than overwhelming the reader with jargon, Pagani helps build the mindset of seeing inefficiencies, understanding their business impact, and then identifying opportunities to help organizations unlock real, sustainable change.
-            </p>
-            <p>
-                My only regret is that I didn’t have this book at my previous job. It would have been so useful in connecting operational improvement to how we worked on customer-driven product improvements. Waste not, want not!
-            </p>
-            <p class="endorser">Mattias Isaksson, Marketing and Product Management Executive</p>
-        </div>
-    </div>
-</section>
-
-        <section id="bonus-materials" class="bonus-section">
-            <h2>Request the Bonus Materials</h2>
-            <p>
-                As mentioned in the book, readers can request bonus materials designed to help apply the ideas from Manufacturing Simplicity.
-            </p>
-            <p>
-                These tools are intended to help you assess your business, identify complexity, collect improvement opportunities, and begin translating the book into practical action.
-            </p>
-
-            <ul class="bonus-list">
-                <li>Complexity Diagnostic Worksheet</li>
-                <li>Waste Collection Form and Workshop Sheet</li>
-                <li>Business Assessment Checklist</li>
-                <li>Lean Maturity Quick Diagnostic</li>
-                <li>Additional implementation templates and support tools</li>
-            </ul>
-
-            <a href="https://manufacturing-simplicity.kit.com/1e5fbaeffe" class="dark-button" target="_blank" rel="noopener noreferrer">Request the Bonus Materials</a>
-
-          <p class="note">
-            You will be taken to a short request form. After submitting your information, the bonus materials will be sent to you by email.
-            </p>
-        </section>
-    </main>
-</body>
-</html>
+<header><nav><div class="nav-business"><img src="images/whiteLogo.PNG" alt="Manufacturing Simplicity logo"><h1>MANUFACTURING SIMPLICITY</h1></div><ul class="nav-links"><li><a href="index.html">Home</a></li><li><a href="book.html" aria-current="page">Book</a></li><li><a href="services.html">Services</a></li><li><a href="blogs.html">Blogs</a></li><li><a href="about.html">About</a></li><li><a href="contact.html">Contact</a></li></ul></nav></header>
+<main>
+<section class="hero"><div class="wrap hero-grid"><div><p class="eyebrow">Amazon Bestselling Book</p><h1>Manufacturing Simplicity</h1><p class="subtitle">The Turnaround Playbook for Leaders Who Want to Eliminate Complexity and Build Systems That Last</p><p class="author">By Eduardo R. Pagani</p><p class="hero-copy">A practical field manual for CEOs, COOs, business owners, plant leaders, and change agents who need to simplify operations, improve execution, and build a culture of continuous improvement that lasts.</p><div class="buttons"><a class="btn btn-light" href="https://www.amazon.com/dp/B0H4XM8DMH" target="_blank" rel="noopener noreferrer">Buy on Amazon</a><a class="btn btn-outline" href="#bonus-materials">Request Bonus Materials</a></div></div><img class="cover" src="images/book-cover-new.png" alt="Cover of Manufacturing Simplicity: The Turnaround Playbook by Eduardo R. Pagani" loading="eager"></div></section>
+<section class="facts-bg"><div class="wrap facts"><h2>Book Details</h2><dl><div><dt>Author</dt><dd><a class="link" href="about.html">Eduardo R. Pagani</a></dd></div><div><dt>Publisher</dt><dd><a class="link" href="https://www.gamechangerpublishing.com/" target="_blank" rel="noopener noreferrer">Game Changer Publishing</a></dd></div><div><dt>Publication date</dt><dd>June 17, 2026</dd></div><div><dt>Formats</dt><dd>Hardcover, paperback, and digital</dd></div><div><dt>Paperback ISBN</dt><dd>979-8-90158-219-0</dd></div><div><dt>Hardcover ISBN</dt><dd>979-8-90158-184-1</dd></div><div><dt>Digital ISBN</dt><dd>979-8-90158-185-8</dd></div><div><dt>Primary topics</dt><dd>Lean transformation, operational turnaround, manufacturing leadership, culture, and continuous improvement</dd></div></dl></div></section>
+<section class="section"><div class="wrap narrow"><p class="kicker">About the book</p><h2>A Practical Playbook for Turning Complexity Into Clarity</h2><p class="lead"><em>Manufacturing Simplicity</em> is a practical turnaround playbook for leaders who need to improve performance without adding more complexity.</p><p>Drawing on more than three decades of global operations leadership, Eduardo R. Pagani shows readers how to assess a business, identify the few priorities that matter most, select the right Lean methods at the right time, engage employees, strengthen daily management, and build systems that sustain improvement.</p><p>Most organizations do not struggle because their people are lazy, careless, or resistant to change. They struggle because complexity slowly takes over. Priorities multiply. Problems hide in plain sight. Meetings replace action. Metrics create noise instead of focus. Improvement projects begin with energy, then fade when daily pressure returns.</p><p>Rather than treating Lean as a collection of tools, the book connects operational discipline, leadership behavior, employee engagement, and culture. Every chapter includes a Reflection and Action section so readers can apply the ideas directly and build a practical transformation plan.</p></div></section>
+<section class="section alt"><div class="wrap two"><div class="card"><p class="kicker">Problems addressed</p><h2>Is Your Organization Struggling With These Issues?</h2><ul><li>Too many priorities competing for attention</li><li>Constant firefighting and recurring operational problems</li><li>Lean initiatives that begin with enthusiasm but do not last</li><li>Improvement projects disconnected from business priorities</li><li>Employees working hard inside unnecessarily complicated systems</li><li>Meetings and metrics that produce activity but not progress</li><li>Weak accountability and inconsistent follow-through</li><li>Leaders unsure which Lean method to use first</li><li>A culture that depends on individual heroes rather than reliable systems</li></ul></div><div class="card"><p class="kicker">Intended readers</p><h2>Written for Leaders Responsible for Results</h2><ul><li>CEOs and business owners facing growth, performance, or execution problems</li><li>COOs and operations executives leading turnarounds</li><li>Plant managers seeking a practical Lean transformation plan</li><li>Manufacturing and supply-chain leaders</li><li>Private-equity operating partners</li><li>Board members and advisors overseeing operational performance</li><li>Continuous-improvement and operational-excellence professionals</li><li>Engineers and change agents responsible for implementation</li><li>Leaders outside manufacturing who need to simplify processes and improve execution</li></ul></div></div></section>
+<section class="section"><div class="wrap"><p class="kicker">Why this book is different</p><h2>Not Just Another Lean Tools Book</h2><p class="lead">The central question is not simply which Lean tools exist. It is which problems the organization should solve first, and which methods leaders should use at each stage of the transformation.</p><div class="three"><article class="feature"><h3>Business priorities first</h3><p>The book begins with assessment and prioritization so improvement work is tied to customer needs, financial performance, and the organization’s most important constraints.</p></article><article class="feature"><h3>Tools in context</h3><p>Readers learn when Value Stream Mapping, Policy Deployment, Daily Management, Standard Work, Visual Management, and Kaizen are appropriate and how they work together.</p></article><article class="feature"><h3>Culture as the foundation</h3><p>The book addresses the leadership behaviors, trust, accountability, engagement, and routines that determine whether improvement survives after the initial push.</p></article></div></div></section>
+<section class="section alt"><div class="wrap"><p class="kicker">Inside the book</p><h2>A Step-by-Step Path From Assessment to Sustainment</h2><p>The book is organized into three parts and twelve chapters. Open any chapter below for a brief summary.</p><div class="chapter-group"><h3>Part I: Understanding the Need for Lean Transformation</h3><details><summary>Chapter 1: The Complexity Trap and Why Simplicity Matters</summary><p>Understand how complexity develops, why it becomes accepted as normal, and how it affects customers, employees, cost, quality, speed, and execution.</p></details><details><summary>Chapter 2: A Path to Sustainable Growth</summary><p>Learn why Lean must operate as a complete management system rather than a series of isolated projects or disconnected tools.</p></details><details><summary>Chapter 3: Identifying Opportunities for Simplification</summary><p>Assess the business, observe the work, engage employees, gather data, identify waste, and determine where improvement should begin.</p></details></div><div class="chapter-group"><h3>Part II: Implementing Lean for Operational Turnaround</h3><details><summary>Chapter 4: Building a Lean Culture</summary><p>Explore the leadership behaviors, trust, accountability, engagement, and management practices required to make improvement last.</p></details><details><summary>Chapter 5: Eliminating Waste and Maximizing Value</summary><p>Define value from the customer’s perspective, recognize waste, understand the current state, and design better flow.</p></details><details><summary>Chapter 6: Strategy Deployment</summary><p>Translate business needs into a focused strategy and align the organization around the few priorities that matter most.</p></details><details><summary>Chapter 7: Creating Clarity and Consistency</summary><p>Use clear expectations, visual management, standard work, and disciplined routines to make performance more predictable.</p></details><details><summary>Chapter 8: Kaizen Events</summary><p>Plan and lead focused improvement events that solve meaningful problems and convert ideas into implemented results.</p></details><details><summary>Chapter 9: Streamlining Administrative Processes</summary><p>Apply Lean thinking beyond the factory floor to improve cross-functional processes, information flow, and decision speed.</p></details></div><div class="chapter-group"><h3>Part III: Sustaining the Lean Transformation</h3><details><summary>Chapter 10: Measuring Your Progress</summary><p>Build a practical performance-measurement system that creates focus, exposes problems, and reinforces accountability.</p></details><details><summary>Chapter 11: Building a Culture of Continuous Improvement</summary><p>Create the leadership routines, employee ownership, and operating disciplines needed to keep improvement moving.</p></details><details><summary>Chapter 12: Adapting to a Changing World</summary><p>Consider how automation, digital systems, artificial intelligence, and changing conditions can support Lean without replacing its fundamentals.</p></details></div></div></section>
+<section class="endorse"><div class="wrap"><div class="endorse-head"><p class="kicker">Advance praise</p><h2>What Business and Operations Leaders Are Saying</h2></div><div class="endorse-grid"><article class="quote"><blockquote><p>I’ve had the privilege of working with Eduardo for several years and getting to know him outside of work for the better part of a decade. This book is a testament to what true operational leadership looks like in practice. Eduardo doesn’t just understand operations, he lives it.</p><p>The lessons in these pages represent only a fraction of the insight, discipline, and hard-won experience he has applied consistently throughout his career. Anyone looking to build scalable, resilient, and high-performing operations will find this book both practical and invaluable.</p><footer class="who">David Metrena, CEO/CCO</footer></blockquote></article><article class="quote"><blockquote><p>Lean is about simplicity, and that is exactly what this insightful and practical book delivers.</p><p>Eduardo Pagani distills more than 30 years of experience into a clear and actionable guide, bringing powerful Lean manufacturing concepts and tools into real-world application. As the author puts it, “you don’t do Lean, you become Lean.”</p><footer class="who">Denis Tarti, Operations Executive and Consultant</footer></blockquote></article><article class="quote"><blockquote><p>Complexity is the silent killer of profits and morale. In <em>Manufacturing Simplicity</em>, Eduardo Pagani gives you the surgical tools to strip away the waste and restore operational clarity.</p><p>This isn't just another Lean book. It’s a hands-on manual for building a resilient, high-performance organization. If you're tired of firefighting, this is your exit strategy.</p><footer class="who">Cesar R. Pagani, Vice President</footer></blockquote></article><article class="quote"><blockquote><p><em>Manufacturing Simplicity</em> breaks down Lean manufacturing in a way that feels practical, clear, and accessible, especially for a commercial product leader without an engineering background.</p><p>Rather than overwhelming the reader with jargon, Pagani helps build the mindset of seeing inefficiencies, understanding their business impact, and identifying opportunities for sustainable change.</p><footer class="who">Mattias Isaksson, Marketing and Product Management Executive</footer></blockquote></article></div></div></section>
+<section class="section alt"><div class="wrap"><p class="kicker">Recognition and coverage</p><h2><em>Manufacturing Simplicity</em> in the Media</h2><div class="media-grid"><article class="media"><h3>Amazon Bestseller</h3><p>The book reached Amazon bestseller status following its June 2026 launch.</p><a class="link" href="https://www.amazon.com/dp/B0H4XM8DMH" target="_blank" rel="noopener noreferrer">View the book on Amazon</a></article><article class="media"><h3>Virtual Advisory Board</h3><p>Featured in VAB’s July 2026 selection of books written by members of its governance and advisory-board community.</p><a class="link" href="https://emailview.oomijiapp.com/VAB-News-Issue-7---08-July-2026-v3_531_1783518716271.html" target="_blank" rel="noopener noreferrer">Read the VAB feature</a></article><article class="media"><h3>Publisher</h3><p>Published by Game Changer Publishing, which supported the development and launch of the book.</p><a class="link" href="https://www.gamechangerpublishing.com/" target="_blank" rel="noopener noreferrer">Visit the publisher</a></article></div><!-- Add verified public links for CEO Weekly, The Wall Street Times, interviews and podcasts here. --></div></section>
+<section class="section"><div class="wrap narrow"><p class="kicker">Reader questions</p><h2>Frequently Asked Questions</h2><div class="faq"><details><summary>Is Manufacturing Simplicity only for manufacturing companies?</summary><p>No. Although many examples are grounded in manufacturing and operations, the principles apply to any organization struggling with complexity, unclear priorities, disconnected processes, poor execution, or unsustainable improvement efforts.</p></details><details><summary>Is this a book about Lean tools?</summary><p>Lean methods are included, but the book is not organized as a catalog of tools. It helps leaders assess their organizations, identify business priorities, determine which methods should be applied, and build the leadership system and culture needed to sustain improvement.</p></details><details><summary>Do I need previous Lean experience?</summary><p>No. The book explains the principles clearly enough for leaders who are new to Lean while providing practical depth for experienced operations and continuous-improvement professionals.</p></details><details><summary>Does the book include practical exercises?</summary><p>Yes. Every chapter contains a Reflection and Action section. Readers also receive access to downloadable worksheets, diagnostics, checklists, and implementation materials.</p></details><details><summary>Can a leadership team use the book together?</summary><p>Yes. Leadership teams can use the chapters, reflection questions, assessments, and templates to evaluate their business, establish priorities, and build a shared transformation plan.</p></details><details><summary>Is the book useful during a business turnaround?</summary><p>Yes. The book was designed as a practical field manual for leaders who need to diagnose problems, restore focus, improve execution, engage employees, and create sustainable operating systems.</p></details></div></div></section>
+<section id="bonus-materials" class="bonus"><div class="wrap bonus-grid"><div><p class="kicker">Apply the ideas</p><h2>Request the Bonus Materials</h2><p>Readers can request practical materials designed to help assess the business, identify complexity, collect improvement opportunities, and translate the book into action.</p><p>These supporting tools complement the Reflection and Action sections and help leadership teams begin building their own transformation plan.</p></div><div class="card"><ul><li>Complexity Diagnostic Worksheet</li><li>Waste Collection Form and Workshop Sheet</li><li>Business Assessment Checklist</li><li>Lean Maturity Quick Diagnostic</li><li>Additional implementation templates and support tools</li></ul><div class="buttons"><a class="btn btn-dark" href="https://manufacturing-simplicity.kit.com/1e5fbaeffe" target="_blank" rel="noopener noreferrer">Request the Bonus Materials</a></div><p class="note">You will be taken to a short request form. After submitting your information, the bonus materials will be sent by email.</p></div></div></section>
+<section class="final"><div class="wrap"><h2>Build a Simpler, Stronger Operating System</h2><p>Stop adding initiatives to an already overloaded organization. Learn how to focus the business on the right priorities, engage the people closest to the work, and build improvement systems that last.</p><div class="buttons"><a class="btn btn-light" href="https://www.amazon.com/dp/B0H4XM8DMH" target="_blank" rel="noopener noreferrer">Buy Manufacturing Simplicity</a><a class="btn btn-outline" href="contact.html">Contact Manufacturing Simplicity</a></div></div></section>
+</main></body></html>
